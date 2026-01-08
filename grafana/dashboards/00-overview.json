@@ -1,0 +1,14 @@
+{
+  "id": null,
+  "title": "Healthcare IoT Overview (placeholder)",
+  "panels": [
+    {
+      "type": "text",
+      "title": "Getting started",
+      "gridPos": {"h":3,"w":24,"x":0,"y":0},
+      "options": {
+        "content": "This is a placeholder dashboard. Connect Zabbix and import templates for SNMP/NETCONF devices. Replace with real visualizations."
+      }
+    }
+  ]
+}

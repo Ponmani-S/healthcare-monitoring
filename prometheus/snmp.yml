@@ -1,0 +1,8 @@
+# Minimal snmp_exporter config - add device modules/OIDs as needed
+modules:
+  default:
+    walk:
+      - 1.3.6.1.2.1.1 # system
+    version: 2c
+    auth:
+      community: public

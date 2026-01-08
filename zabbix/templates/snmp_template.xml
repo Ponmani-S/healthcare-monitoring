@@ -1,0 +1,10 @@
+<!-- Minimal Zabbix SNMP template (import and adapt in Zabbix UI) -->
+<zabbix_export>
+  <version>6.4</version>
+  <templates>
+    <template>
+      <template>Template SNMP Healthcare</template>
+      <name>Template SNMP Healthcare</name>
+    </template>
+  </templates>
+</zabbix_export>

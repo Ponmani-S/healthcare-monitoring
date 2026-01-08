@@ -1,0 +1,11 @@
+zabbix_api: http://zabbix-web:8080
+zabbix_user: Admin
+zabbix_password: zabbix
+interval: 60
+devices:
+  # Example NETCONF device definition - replace host, credentials and zabbix_host (name in Zabbix)
+  - host: 127.0.0.1
+    port: 830
+    username: netconf
+    password: netconf
+    zabbix_host: NETCONF-DEVICE-1
