@@ -1,0 +1,3 @@
+docker cp C:\zabbix-stack\grafana.ini hiz_grafana:/etc/grafana/grafana.ini
+docker restart hiz_grafana
+docker compose up -d
